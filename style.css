@@ -18,6 +18,7 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 50px;
+    position: relative;
 }
 
 p{
@@ -34,7 +35,6 @@ p{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1vw;
     background-color: rgb(151, 2, 102);
-    position: relative;
 }
 
 .box{
@@ -50,12 +50,12 @@ p{
     overflow: visible;
     font-size: 7vw;
     position: absolute;
-    top:40%;
-    left: 31%;
-    background-color: yellow;
+    top:45%;
     display: none;
-    padding: 0 5px;
-
+    background-color: yellow;
+    width: 70vw;
+    max-width: 500px;
+    padding: 10px 0;
 }
 
 .reset{
