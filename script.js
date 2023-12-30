@@ -21,7 +21,7 @@ const checkWinner = () => {
 
         if(pos1Val != "" && pos2Val != "" && pos2Val != ""){
             if(pos1Val === pos2Val && pos2Val=== pos3Val){
-                document.querySelector(".main").style.opacity = 0.3;
+                document.querySelector(".main").style.opacity = 0.2;
                 document.querySelector(".winner").innerHTML = "Winner is " + pos1Val + "!";
                 document.querySelector(".winner").style.display = "block";
                 for(let box of boxes){
@@ -40,8 +40,8 @@ const checkDraw = () =>{
         }
     }
     if(count === 9){
-        document.querySelector(".main").style.opacity = 0.3;
-        document.querySelector(".winner").innerHTML = "Game is Tied";
+        document.querySelector(".main").style.opacity = 0.2;
+        document.querySelector(".winner").innerHTML = "It's a Draw!";
         document.querySelector(".winner").style.display = "block";
     }
 }
