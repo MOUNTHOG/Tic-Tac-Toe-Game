@@ -47,12 +47,12 @@ p{
 }
 
 .winner{
-    overflow: visible;
     font-size: 7vw;
     position: absolute;
     top:45%;
     display: none;
-    background-color: yellow;
+    background-color: transparent;
+    color: yellow;
     width: 70vw;
     max-width: 500px;
     padding: 10px 0;
