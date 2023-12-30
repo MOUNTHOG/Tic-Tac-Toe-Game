@@ -67,8 +67,8 @@ boxes.forEach((box) => {
             trunO = true;
         }
         box.disabled = true;
-        checkWinner();
         checkDraw();
+        checkWinner();
     })
     
 })
